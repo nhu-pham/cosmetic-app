@@ -1,0 +1,79 @@
+@import '../../style/shared-styles.scss';
+.container {
+    color: #c76b98;
+}
+
+.confirmation-container {
+    margin: 50px auto;
+    color: #6a4c93;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(249, 161, 188, 0.3);
+    background-color: #fff0f6;
+    text-align: center; /* Căn giữa nội dung */
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 1px solid #f4c2c2;
+}
+
+.product-name {
+    color: #6a4c93;
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    border-collapse: separate;
+    border: 1px solid #f9a1bc;
+    border-spacing: 0;
+    background-color: #fff0f6;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    color: #6a4c93;
+}
+
+.btn-gradient {
+    background: $btn-color;
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+    border: none;
+}
+
+/* Tổng thanh toán nổi bật hơn */
+.total-amount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e53935; /* đỏ */
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* Nút áp dụng tone hồng */
+.btn-outline-secondary {
+    border-color: #f48fb1;
+    color: #f48fb1;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #f48fb1;
+    color: white;
+    border-color: #f48fb1;
+}

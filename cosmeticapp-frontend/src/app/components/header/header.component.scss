@@ -1,0 +1,70 @@
+header {
+    background-color: rgba(0, 0, 0, 0);
+    color: #c76b98; /* tím hoa cà nhẹ */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color:#fff7fa; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar .container {
+    background-color: rgba(113, 74, 74, 0) !important;
+}
+
+.navbar .container .navbar-brand {
+    color: #c76b98; /* nhất quán với tiêu đề */
+    font-weight: bold;
+}
+
+.navbar .container .navbar-nav .nav-link {
+    color: #6a4c93; /* tím đậm hơn cho nav link */
+    border-radius: 18px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .container .navbar-nav .nav-link:hover {
+    background-color: #f4c2c2; /* hồng phấn khi hover */
+    color: #6a4c93;
+}
+
+.navbar .container .navbar-nav .nav-link.active {
+    background-color: #f48fb1 !important;
+    color: white !important;
+}
+
+/* Popover container */
+.popover-list {
+    padding: 10px;
+    background-color: #fff7fa; /* nền cùng tone với header */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(199, 107, 152, 0.2); /* tím hoa cà nhẹ */
+}
+
+/* Bỏ padding mặc định nếu cần */
+.popover-body {
+    padding: 0;
+}
+
+/* Popover item mặc định */
+.popover-item {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #6a4c93; /* tím đậm hơn - nhất quán với nav-link */
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Khi hover vào item */
+.popover-item:hover {
+    background-color: #f4c2c2; /* hồng phấn nhẹ */
+    color: #6a4c93; /* giữ màu tím */
+    font-weight: 500;
+}

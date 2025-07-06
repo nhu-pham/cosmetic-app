@@ -1,0 +1,75 @@
+.container {
+    color: #c76b98; /* tím hoa cà dịu */
+}
+
+.intro-section {
+    color: #6a4c93;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-header {
+    color: #f48fb1; /* hồng baby */
+}
+
+.form-control {
+    background-color: #fff0f6; /* nền hồng rất nhạt */
+    border: 1px solid #f9a1bc; /* border hồng nhẹ */
+    color: #6a4c93; /* chữ tím đậm */
+}
+
+.form-control:focus {
+    border-color: #c76b98;
+    background-color: #fff0f6;
+}
+
+.form-label {
+    color: #c76b98;
+}
+
+.product-order {
+    color: #6a4c93;
+}
+
+table {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    border-collapse: separate;
+    border: 1px solid #f9a1bc;
+    border-spacing: 0;
+    background-color: #fff0f6; /* nền hồng nhạt */
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    color: #6a4c93;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 1px solid #f4c2c2;
+}
+
+.product-name {
+    color: #6a4c93;
+    margin-right: 10px;
+}
+
+.btn-gradient {
+    background: linear-gradient(to right, #f48fb1, #c76b98);
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+    border: none;
+}

@@ -1,0 +1,77 @@
+@import '../../style/shared-styles.scss';
+
+.container {
+  color: #6a4c93;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #fff0f6, #d0f0f6);
+}
+
+.register-form {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  border: 1px solid #f4c2c2;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-header {
+  text-align: center;
+  color: #c76b98;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  background-color: transparent;
+  border: none;
+  color: #4b4b4b;
+}
+
+.form-control:focus {
+  color: #4b4b4b;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  border-color: transparent;
+  padding-left: 0;
+}
+
+.form-control::placeholder {
+  color: rgba(168, 109, 160, 0.5);
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #c76b98;
+  cursor: pointer;
+}
+
+.text-danger {
+  font-size: 0.9rem;
+}
+
+.divider-nospace {
+  border-top: 1px solid #c8b6ff;
+  margin-top: 5px;
+}
+.register-button {
+  background: linear-gradient(to right, #e07a99, #a99ef5);
+  color: white;
+  border-radius: 30px;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 20px;
+  border: none;
+}
